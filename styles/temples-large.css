@@ -7,7 +7,9 @@
   nav {
     display: block;
     width: auto;
+     padding-top: 0;
   }
+
 
   nav ul {
     display: flex;
