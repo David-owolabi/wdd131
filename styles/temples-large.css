@@ -1,3 +1,33 @@
-@media screen and (min-width: 640px){
-    
+@media screen and (min-width: 640px) {
+  .temples {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+  }
+
+  nav {
+    display: block;
+    width: auto;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 1rem; */
+    list-style: none;
+    /* padding: 0; */
+  }
+
+  nav a{
+    /* text-decoration: none; */
+    color: white;
+    padding: 0.5rem;
+  }
+
+  nav a:hover{
+    color: #f9c74f;
+  }
+  button {
+    display: none;
+  }
 }
